@@ -1,0 +1,24 @@
+{
+    "name": "mayorcoded/PhpParallelCurl",
+    "description": "Php library for executing multiple curls in parallel.",
+    "keywords": ["php", "parallel", "curl", "multi-curl", "parallel-curl", "non-blocking", "simultaneous curl"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mayowa Tudonu",
+            "email": "mtudonu85@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.0"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "^6.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "mayorcoded\\PhpParallelCurl\\": "src/"
+        }
+    }
+}
