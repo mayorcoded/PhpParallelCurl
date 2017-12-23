@@ -1,6 +1,6 @@
 {
-    "name": "mayorcoded/PhpParallelCurl",
-    "description": "Php library for executing multiple curls in parallel.",
+    "name": "mayorcoded/phpparallelcurl",
+    "description": "Php library for executing non-blocking multiple curls in parallel.",
     "keywords": ["php", "parallel", "curl", "multi-curl", "parallel-curl", "non-blocking", "simultaneous curl"],
     "license": "MIT",
     "authors": [
