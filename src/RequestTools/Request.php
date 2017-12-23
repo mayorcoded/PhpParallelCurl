@@ -117,7 +117,7 @@ class Request
     public function setOptions(array $options)
     {
         if(!is_array($options)){
-            throw \InvalidArgumentException('Options must be an array');
+            throw new \InvalidArgumentException('Options must be an array');
         }
 
         $this->options = $options;
@@ -126,7 +126,7 @@ class Request
     public function addOptions(array $options)
     {
         if(!is_array($options)){
-            throw \InvalidArgumentException('Options must be an array');
+            throw new \InvalidArgumentException('Options must be an array');
         }
 
         $this->options = $this->options + $options;
