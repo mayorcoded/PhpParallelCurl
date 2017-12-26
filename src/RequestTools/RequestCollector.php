@@ -8,7 +8,6 @@
 
 namespace mayorcoded\PhpParallelCurl\RequestTools;
 
-
 class RequestCollector
 {
     private static $pendingRequestQueue = array();
@@ -42,3 +41,5 @@ class RequestCollector
         return self::$pendingRequestQueue;
     }
 }
+
+
