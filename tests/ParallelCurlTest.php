@@ -17,7 +17,7 @@ class ParallelCurlTest extends PHPUnit\Framework\TestCase
 
     public function testExecuteMethod2(){
         $parallelCurl = new ParallelCurl();
-        $this->assertTrue($parallelCurl->execute() == "Hey");
+        $this->assertTrue(is_array($parallelCurl->execute()));
         unset($var);
     }
 }
